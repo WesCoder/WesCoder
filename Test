@@ -1,0 +1,17 @@
+<html>
+<body>
+  <button id="id" style="background-color:blue;color:red;position:absolute;right:900px;top:200px; width:200px;height:200px;">Klik hier!</button>
+</body>
+
+<script>
+document.getElementById("id").addEventListener("click", click)
+
+function click() {
+  for (i = 0; i < 11; i++) {
+    window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
+  }
+}
+</script>
+
+
+</html>
